@@ -60,7 +60,7 @@ project-root
    ```bash
    npm start
    ```
-2. Access the API at `http://localhost:3000`.
+2. Access the API at `http://localhost:8080`.
 
 ## API Endpoints
 | Method | Endpoint          | Description                |
