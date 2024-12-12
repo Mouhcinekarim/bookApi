@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-
+    "start": "ts-node index.ts"
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,13 @@
   },
   "homepage": "https://github.com/Mouhcinekarim/bookApi#readme",
   "dependencies": {
-    "express": "^4.21.2"
+    "@sinclair/typebox": "^0.34.11",
+    "fastify": "^5.1.0",
+    "mongoose": "^8.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
   }
 }
